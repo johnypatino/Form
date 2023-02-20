@@ -1,19 +1,21 @@
 body {
-    height: 100%;
-    overflow: hidden;
     background-color: darkslategray;
+    
+    overflow: scroll;
 }
 .container {
     display: flex;
-    max-height: 700px;
-    
     
 }
 .content {
-display: flex;
-min-width: 400px;
-flex-direction: column;
+    min-width: 400px;
+    flex-direction: column;
 }
+.sticky {
+    position: sticky;
+    top:0;
+}
+
 .images {
 max-height: 700px;
 min-width: 250px;
