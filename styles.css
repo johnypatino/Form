@@ -1,0 +1,29 @@
+body {
+    height: 100%;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+.container {
+    display: flex;
+    max-height: 700px;
+    
+    
+}
+.content {
+display: flex;
+min-width: 400px;
+flex-direction: column;
+}
+.images {
+max-height: 700px;
+min-width: 250px;
+max-width: 500px;
+}
+.left {
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+}
+
