@@ -78,13 +78,23 @@ max-width: 500px;
     border: 10px solid white;
     background-color: black;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+
+    padding: 10px;
 }
 .credits a {
-    color:white
+    color:white;
+    min-width: 102px;
+    margin-left:auto;
+
 }
 #logo {
-    width: 100px;
+    width: 80px;
+    margin-left: 5px;
+    
+}
+#ghlogo {
+    width: 25px;
     margin-left: 5px;
 }
 
