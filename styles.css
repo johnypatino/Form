@@ -1,21 +1,30 @@
 body {
     background-color: darkslategray;
-    
-    overflow: scroll;
+    margin:0;
+    overflow:hidden;
 }
 .container {
     display: flex;
+    padding:0;
     
 }
 .content {
-    min-width: 400px;
+    min-width:400px;
     flex-direction: column;
+    margin:0;
 }
-.sticky {
-    position: sticky;
-    top:0;
+.content-top {
+    text-align: center;
 }
-
+.content-top p {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.content-center {
+    background-color: aliceblue;
+    
+    
+}
 .images {
 max-height: 700px;
 min-width: 250px;
@@ -27,5 +36,28 @@ max-width: 500px;
 
 .heading {
     display: flex;
+}
+.form-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.form-box {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    min-width: 200px;
+    max-width: 300px;
+    margin-right: 20px;
+    
+}
+.form-box label {
+    padding: 5px;
 }
 
