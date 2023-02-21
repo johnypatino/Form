@@ -1,32 +1,38 @@
+
 body {
-    background-color: darkslategray;
+    background-color: gainsboro;
     margin:0;
-    overflow:hidden;
+    
+    overflow:scroll
+    
+    
 }
 .container {
     display: flex;
     padding:0;
-    
+    height:calc()
 }
 .content {
     min-width:400px;
     flex-direction: column;
     margin:0;
+    
 }
 .content-top {
     text-align: center;
+    
 }
 .content-top p {
     margin-right: 10%;
     margin-left: 10%;
 }
 .content-center {
-    background-color: aliceblue;
+    background-color: white;
+    padding: 20px 0 20px 0;
     
     
 }
 .images {
-max-height: 700px;
 min-width: 250px;
 max-width: 500px;
 }
@@ -59,5 +65,26 @@ max-width: 500px;
 }
 .form-box label {
     padding: 5px;
+}
+.sticky {
+    position: sticky;
+    top:0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+    min-height: 730px;
+}
+.credits {
+    border: 10px solid white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.credits a {
+    color:white
+}
+#logo {
+    width: 100px;
+    margin-left: 5px;
 }
 
